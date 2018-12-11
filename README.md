@@ -7,7 +7,8 @@ This watermarking program needs to be used with the help of MATLAB and LSB Encod
 
 ### Steps to Digitally Watermark Audio File:
 
-1. git clone ""
+1. Clone this repo: <br>
+    ```$ git clone "https://github.com/saideepd/Audio_Watermarking.git"```
 2. Open MATLAB and open the **data_embedding.m** file
 3. Enter the desired copyright information in **text.txt** file which you want to include in your Audio file
 4. Run the **data_embedding.m** file
@@ -15,7 +16,7 @@ This watermarking program needs to be used with the help of MATLAB and LSB Encod
 6. Select the desired Audio file to digitally watermark
 7. Your digitally watermarked Audio file will be saved in the same location as your source Audio file with a **filename\_watermark.extension** name
 
-#### Steps to Verify Digital Watermark:
+### Steps to Verify Digital Watermark:
 1. Open MATLAB and open the **data_extractng.m** file
 2. Run the **data_extractng.m** file
 3. You'll be prompted to select the watermarked file
